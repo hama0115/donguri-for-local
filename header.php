@@ -53,7 +53,7 @@
                 <ul class="header__social">
                     <li class="top"><a href="#"><i class="fab fa-instagram fa-4x"></i></a></li>
                     <li><a href="#"><i class="fab fa-line fa-4x"></i></a></li>
-                    <li><a href="#"><p class="txt-24">Tel. 090-9227-2013</p></a></li>
+                    <li><a href="tel:00000000000"><p class="txt-24">Tel. 090-9227-2013</p></a></li>
                 </ul>
             </div>
         </div>
