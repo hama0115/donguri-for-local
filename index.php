@@ -1,63 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta http-equiv="Content-Style-Type" content="text/css" />
-    <meta http-equiv="Content-script-type" content="text/javascript" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="カイロプラクターどんぐりの公式サイトです。カイロプラクティックを通じて、根本からの健康ケアを提供します。">
-    <meta property="og:title" content="カイロプラクターどんぐりの公式サイト">
-    <meta property="og:site_name" content="カイロプラクターどんぐりの公式サイト">
-    <meta property="og:description" content="カイロプラクターどんぐりの公式サイトです。カイロプラクティックを通じて、根本からの健康ケアを提供します。">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="https://example.com">
-    <meta property="og:locale" content="ja_JP">
-    <meta name="format-detection" content="telephone=no">
-
-    <title>カイロプラクターどんぐりの公式サイト</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-
-    <!-- css読み込み -->
-    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@4.1.1/dist/css/yakuhanjp.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/setting.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-</head>
-<body>
-    <header>
-        <div class="flex-start">
-            <div class="header__logo">
-                <a href="#"><img src="img/logo.svg" alt="Logo" /></a>
-            </div>
-            <!-- <nav class="header__nav">
-                <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-                </ul>
-            </nav> -->
-            <!-- <div class="header__search">
-                <input type="text" placeholder="Search..." />
-            </div> -->
-            <input type="checkbox" class="menu-btn" id="menu-btn">
-            <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
-
-            <div class="menu">
-                <ul class="header__social">
-                    <li class="top"><a href="#"><i class="fab fa-instagram fa-4x"></i></a></li>
-                    <li><a href="#"><i class="fab fa-line fa-4x"></i></a></li>
-                    <li><a href="#"><p class="txt-24">Tel. 090-9227-2013</p></a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <main class="top_page">
+<?php get_header(); ?>
         <div class="fix">
             <a href="#"><p class="txt-16 vertical1">お問い合わせ</p></a>
         </div>
@@ -77,7 +18,7 @@
                             まずは一度、施術を受けてみませんか？</p>
                     </div>
                 </section>
-                <img src="img/fv.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/fv.png" alt="">
             </div>
             <div class="scrolldown"><span>Scroll</span></div>
         </div>
@@ -106,7 +47,7 @@
                     </div>
                 </div>
                 <div class="pht-area" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                    <img src="img/about.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/about.png" alt="">
                 </div>
             </section>
         </div>
@@ -152,7 +93,7 @@
                     <h2 class="txt-24">自己紹介</h2>
                 </div>
                 <div class="flex" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                    <img src="img/gray.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">
                     <div class="txt txt-white">
                         <p class="txt-20">カイロプラクター　<br class="sp">喜多柊人</p>
                         <p class="txt-16">自律神経失調症を発症。病院で治療を受けるも回復せず。<br class="pc">
@@ -196,14 +137,4 @@
                 </div>
             </section>
         </div>
-    </main>
-    <footer>
-        <p class="txt-14 txt-white">Copyright @ Chiractor KitaShuto All Rights Reserved.</p>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="./js/script.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script> AOS.init();</script>
-</body>
-</html>
+<?php get_footer(); ?>
