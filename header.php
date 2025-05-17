@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Style-Type" content="text/css" />
-    <meta http-equiv="Content-script-type" content="text/javascript" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="カイロプラクターどんぐりの公式サイトです。カイロプラクティックを通じて、根本からの健康ケアを提供します。">
-    <meta property="og:title" content="カイロプラクターどんぐりの公式サイト">
-    <meta property="og:site_name" content="カイロプラクターどんぐりの公式サイト">
-    <meta property="og:description" content="カイロプラクターどんぐりの公式サイトです。カイロプラクティックを通じて、根本からの健康ケアを提供します。">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="https://example.com">
-    <meta property="og:locale" content="ja_JP">
-    <meta name="format-detection" content="telephone=no">
-
-    <title>カイロプラクターどんぐりの公式サイト</title>
     <?php wp_head(); ?>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
