@@ -3,13 +3,6 @@
 <head>
     <?php wp_head(); ?>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-
-    <!-- css読み込み -->    
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/./css/reset.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/./css/common.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/./css/setting.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/./style.css" />
 </head>
 <body>
     <header>
