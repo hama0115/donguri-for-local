@@ -4,11 +4,7 @@
     <?php wp_head(); ?>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
-    <!-- css読み込み -->
-    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@4.1.1/dist/css/yakuhanjp.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- css読み込み -->    
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/./css/reset.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/./css/common.css" />
