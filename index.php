@@ -1,7 +1,7 @@
 <?php get_header(); ?>
-        <div class="fix">
+        <!-- <div class="fix">
             <a href="#"><p class="txt-16 vertical1">お問い合わせ</p></a>
-        </div>
+        </div> -->
         <div id="fv__area">
             <ul class="slide">
                 <li class="item txt-accent en">CHIROPRACTIC HEALING FOR TRUE WELLNESS.</li>
@@ -64,18 +64,18 @@
                         <p class="txt-20">問診</p>
                         <p class="txt-16">症状の病歴、いつから始まったのかなどお聞きし、カルテに記入します。</p>
                     </div>
-                    <div class="item" data-aos="fade-up" data-aos-duration="2250" data-aos-once="true">
+                    <div class="item" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                         <p class="txt-24">2</p>
                         <p class="txt-20">検査</p>
                         <p class="txt-16">検査表に沿って体の左右差、痛みの箇所、可動域などチェックします。</p>
                     </div>
-                    <div class="item" data-aos="fade-up" data-aos-duration="3000" data-aos-once="true">
+                    <div class="item" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                         <p class="txt-24">3</p>
                         <p class="txt-20">施術</p>
                         <p class="txt-16">骨格の状態を見ながら、足の長さや肩関節の位置を調整するなど各種施術をいたします。</p>
                     </div>
                 </div>
-                <p class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><a href="#"><span class="txt-20 txt-white">予約はこちら</span></a></p>
+                <p class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><a href="#calender__area"><span class="txt-20 txt-white">予約はこちら</span></a></p>
             </section>
         </div>
         <div id="price__area">
@@ -109,10 +109,45 @@
             <section class="inner">
                 <div class="title" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <p class="txt-14 en">Calender</p>
-                    <h2 class="txt-24">診療可能時間</h2>
+                    <h2 class="txt-24">カレンダー</h2>
                 </div>
-                <div class="content"></div>
-                <p class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><a href="#"><span class="txt-20 txt-white">予約はこちら</span></a></p>
+                <p class="txt-16" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">ご予約はお電話、もしくは予約フォームより受け付けております。ご都合のよい日時をお選びください。</p>
+                <div class="cntnt">
+                    <table class="tb02" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                        <tr>
+                            <th class="txt-16">診療時間</th>
+                            <td class="txt-16">月</td>
+                            <td class="txt-16">火</td>
+                            <td class="txt-16">水</td>
+                            <td class="txt-16">木</td>
+                            <td class="txt-16">金</td>
+                            <td class="txt-16">土</td>
+                            <td class="txt-16">日</td>
+                        </tr>
+                        <tr>
+                            <th class="txt-16">9:00-13:00</th>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                        </tr>
+                        <tr>
+                            <th class="txt-16">15:00-21:00</th>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                            <td class="txt-16">●</td>
+                        </tr>
+                    </table>
+                    <p class="txt-14" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">休診日：不定休</p>
+                </div>
+                <p class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><a href="#calender__area"><span class="txt-20 txt-white">予約はこちら</span></a></p>
             </section>
         </div>
         <div id="map__area">
