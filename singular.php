@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php if(have_posts()): ?>
   <?php while(have_posts()): the_post(); ?>
-    <div class="post">
+    <div class="post inner">
       <h1 class="post-title"><?php the_title(); ?></h1>
       <div class="post-meta">
         <span class="post-date"><?php echo get_the_date(); ?></span>

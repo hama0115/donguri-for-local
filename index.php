@@ -75,7 +75,10 @@
                         <p class="txt-16">骨格の状態を見ながら、足の長さや肩関節の位置を調整するなど各種施術をいたします。</p>
                     </div>
                 </div>
-                <p class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><a href="#calender__area"><span class="txt-20 txt-white">予約はこちら</span></a></p>
+                <div class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                    <a href="#calendar__area"><span class="txt-20 txt-white">予約はこちら</span></a>
+                    <a href="#calendar__area"><span class="txt-20 txt-white">お問い合わせはこちら</span></a>
+                </div>
             </section>
         </div>
         <div id="price__area">
@@ -89,8 +92,8 @@
         <div id="profile__area">
             <section class="inner">
                 <div class="title txt-white" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                    <p class="txt-14 en">Profile</p>
-                    <h2 class="txt-24">自己紹介</h2>
+                    <p class="txt-14 en">Greeting</p>
+                    <h2 class="txt-24">ごあいさつ</h2>
                 </div>
                 <div class="flex" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">
@@ -105,10 +108,10 @@
                 </div>
             </section>
         </div>
-        <div id="calender__area">
+        <div id="calendar__area">
             <section class="inner">
                 <div class="title" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                    <p class="txt-14 en">Calender</p>
+                    <p class="txt-14 en">Calendar</p>
                     <h2 class="txt-24">カレンダー</h2>
                 </div>
                 <p class="txt-16" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">ご予約はお電話、もしくは予約フォームより受け付けております。ご都合のよい日時をお選びください。</p>
@@ -147,8 +150,14 @@
                     </table>
                     <p class="txt-14" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">休診日：不定休</p>
                 </div>
-                <p class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><a href="#calender__area"><span class="txt-20 txt-white">予約はこちら</span></a></p>
+                <div class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                    <a href="#calendar__area"><span class="txt-20 txt-white">予約はこちら</span></a>
+                    <a href="#calendar__area"><span class="txt-20 txt-white">お問い合わせはこちら</span></a>
+                </div>
             </section>
+            <div class="icon" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/calendar.png" alt="">
+            </div>
         </div>
         <div id="map__area">
             <section class="inner">

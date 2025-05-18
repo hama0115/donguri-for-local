@@ -13,14 +13,22 @@ Author: どんぐり
 }
 .btn{
     text-align: center;
-    margin-top: 50px;
-    span{
+    width: 80%;
+    margin: 50px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    a{
+        width: max(30%, 300px);
         background: var(--black);
+        height: 50px;
+        align-content: center;
         display: inline-block;
-        padding: 10px 50px;
-        transition: opacity,.5s ease;
+        transition: opacity,.4s ease;
         &:hover{
             border-radius: 15px;
+            opacity: .8;
         }
     }
 }
@@ -39,6 +47,19 @@ Author: どんぐり
         color: var(--black);
     }
 } */
+.post{
+    padding: 100px 0;
+    .post-title{
+        font-weight: 500;
+    }
+    .post-meta{
+        display: none;
+    }
+    .return_button{
+        width: 100px;
+        margin: auto;
+    }
+}
 
 .top_page{
     /* fv */
@@ -271,9 +292,10 @@ Author: どんぐり
         }
     }
     
-    /* calender */
-    #calender__area{
+    /* calendar */
+    #calendar__area{
         padding: 80px 0;
+        position: relative;
         .txt-16{
             text-align: center;
         }
@@ -302,6 +324,12 @@ Author: どんぐり
                 text-align: left;
                 margin-top: 10px;
             }
+        }
+        .icon{
+            position: absolute;
+            bottom: 0;
+            left: 8%;
+            width: min(4%, 200px);
         }
     }
     
@@ -510,8 +538,8 @@ Author: どんぐり
         }
     }
     
-    /* calender */
-    #calender__area{
+    /* calendar */
+    #calendar__area{
         padding: 60px 0;
     }
     
@@ -571,7 +599,7 @@ Author: どんぐり
                     .txt-18{
                         letter-spacing: 0rem;
                         font-size: 1.4rem;
-                        line-height: 1,6;
+                        line-height: 1.6;
                     }
                 }
             }
@@ -696,8 +724,8 @@ Author: どんぐり
         }
     }
     
-    /* calender */
-    #calender__area{
+    /* calendar */
+    #calendar__area{
         padding: 50px 0;
     }
     
