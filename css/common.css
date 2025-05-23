@@ -294,9 +294,17 @@ header{
         .header__social{
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 20px;
             a{
                 color: var(--black);
+                i{
+                    &.fa-4x{
+                        font-size: 3.4rem;
+                    }
+                    &.fa-3x{
+                        font-size: 3.0rem;
+                    }
+                }
             }
         }
         .menu-btn{

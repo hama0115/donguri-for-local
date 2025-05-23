@@ -76,8 +76,8 @@
                     </div>
                 </div>
                 <div class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                    <a href="#calendar__area"><span class="txt-20 txt-white">予約はこちら</span></a>
-                    <a href="#calendar__area"><span class="txt-20 txt-white">お問い合わせはこちら</span></a>
+                    <a href="<?php echo get_permalink( get_page_by_path('form') ); ?>"><span class="txt-20 txt-white">WEB予約はこちら</span></a>
+                    <a href="<?php echo get_permalink( get_page_by_path('contact') ); ?>"><span class="txt-20 txt-white">お問い合わせはこちら</span></a>
                 </div>
             </section>
         </div>
@@ -85,7 +85,24 @@
             <section class="inner">
                 <div class="title" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <p class="txt-14 en">Price</p>
-                    <h2 class="txt-24">料金表</h2>
+                    <h2 class="txt-24">料金案内</h2>
+                    <section class="pricing">
+                        <div class="price-box">
+                            <h3>基本料金</h3>
+                            <p>3,500円（税込）</p>
+                            <p class="note">施術時間：60〜70分</p>
+                        </div>
+
+                        <div class="price-box">
+                            <h3>出張料金</h3>
+                            <ul>
+                            <li>車で20分圏内：<strong>＋500円</strong></li>
+                            <li>それ以降20分ごとに：<strong>＋500円</strong></li>
+                            </ul>
+                            <p class="note">※距離はGoogleマップ等で計測します。</p>
+                        </div>
+                    </section>
+
                 </div>
             </section>
         </div>
@@ -96,14 +113,16 @@
                     <h2 class="txt-24">ごあいさつ</h2>
                 </div>
                 <div class="flex" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">
+                    <div class="pht">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">
+                        <p class="txt-16 txt-white">カイロプラクター<br class="pc">喜多柊人</p>
+                    </div>
                     <div class="txt txt-white">
-                        <p class="txt-20">カイロプラクター　<br class="sp">喜多柊人</p>
-                        <p class="txt-16">自律神経失調症を発症。病院で治療を受けるも回復せず。<br class="pc">
-                            不眠や過呼吸に悩まされる中、カイロプラクティックと出会う。<br class="pc">
-                            自律神経失調症が改善し、カイロプラクティックを広めることを決意。<br class="pc">
-                            2024年4月、カイロプラクター資格取得。<br class="pc">
-                            現在に至る。</p>
+                        <p class="txt-16">ホームページをご覧いただき、誠にありがとうございます。</p>
+                        <p class="txt-16">「身体本来の力を引き出す施術」を大切にし、お一人おひとりの症状や生活スタイルに寄り添ったカイロプラクティック施術を提供しております。肩こりや腰痛、姿勢のゆがみなど、現代人が抱えるさまざまな不調は、身体のバランスの乱れからくることが少なくありません。<br>
+だからこそ、ただ一時的な痛みを和らげるのではなく、根本的な原因に向き合い、丁寧なカウンセリングと施術を通じて、健康的な身体づくりをサポートしていきたいと考えております。<br></p>
+                        <p class="txt-16">小さなお悩みでも、どうぞお気軽にご相談ください。<br>
+皆さまの健やかな毎日のために、誠心誠意お手伝いさせていただきます。</p>
                     </div>
                 </div>
             </section>
@@ -116,7 +135,7 @@
                 </div>
                 <p class="txt-16" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">ご予約はお電話、もしくは予約フォームより受け付けております。ご都合のよい日時をお選びください。</p>
                 <div class="cntnt">
-                    <table class="tb02" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                    <table class="table" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                         <tr>
                             <th class="txt-16">診療時間</th>
                             <td class="txt-16">月</td>
@@ -128,31 +147,22 @@
                             <td class="txt-16">日</td>
                         </tr>
                         <tr>
-                            <th class="txt-16">9:00-13:00</th>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
-                        </tr>
-                        <tr>
-                            <th class="txt-16">15:00-21:00</th>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
-                            <td class="txt-16">●</td>
+                            <th class="txt-16">10:00-21:00</th>
+                            <td class="txt-16">○</td>
+                            <td class="txt-16">○</td>
+                            <td class="txt-16">○</td>
+                            <td class="txt-16">○</td>
+                            <td class="txt-16">○</td>
+                            <td class="txt-16">○</td>
+                            <td class="txt-16">○</td>
                         </tr>
                     </table>
                     <p class="txt-14" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">休診日：不定休</p>
+                    <p class="txt-14" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">営業カレンダーは目安です。施術者の都合により、休みをいただく場合がございますのでご了承ください。また、時間に関しましては柔軟に対応可能です。「お問い合わせ」からご連絡ください。<br>当日予約はお電話で、明日以降はWEB予約が可能です。</p>
                 </div>
                 <div class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                    <a href="#calendar__area"><span class="txt-20 txt-white">予約はこちら</span></a>
-                    <a href="#calendar__area"><span class="txt-20 txt-white">お問い合わせはこちら</span></a>
+                    <a href="<?php echo get_permalink( get_page_by_path('form') ); ?>"><span class="txt-20 txt-white">WEB予約はこちら</span></a>
+                    <a href="<?php echo get_permalink( get_page_by_path('contact') ); ?>"><span class="txt-20 txt-white">お問い合わせはこちら</span></a>
                 </div>
             </section>
             <div class="icon" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
@@ -168,15 +178,10 @@
                 <div class="flex" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37190.475396374364!2d139.72443448878846!3d35.65363158182218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c0d02d8064d%3A0xd11a5f0b379e6db7!2z55qH5bGF!5e0!3m2!1sja!2sjp!4v1744558316800!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <div class="txt txt-white">
-                        <p class="txt-16">
-                            カイロプラクティックどんぐり
-                        </p>
-                        <p class="txt-16">
-                            三重県伊勢市神久　4-4-12
-                            カイロプラクティック光輝　伊勢院内</p>
+                        <p class="txt-20">カイロプラクティックどんぐり</p>
                         <p class="txt-16">営業時間／平日 10:00〜21:00</p>
-                        <p class="txt-16 indent">※出張施術の場合、営業時間外の対応も可能です。<br class="pc">
-                            ご予約時にご相談ください</p>
+                        <p class="txt-16">住所：三重県伊勢市</p>
+                        <p class="txt-16 indent">※出張施術の場合、営業時間外の対応も可能です。<br class="pc">ご予約時にご相談ください</p>
                     </div>
                 </div>
             </section>
