@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+  <main class="top_page pb-10">
 <?php if(have_posts()): ?>
   <?php while(have_posts()): the_post(); ?>
     <div class="post inner">

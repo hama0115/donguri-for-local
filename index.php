@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+    <main class="top_page">
         <!-- <div class="fix">
             <a href="#"><p class="txt-16 vertical1">お問い合わせ</p></a>
         </div> -->
@@ -176,7 +177,7 @@
                     <h2 class="txt-24">アクセス＆マップ</h2>
                 </div>
                 <div class="flex" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37190.475396374364!2d139.72443448878846!3d35.65363158182218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c0d02d8064d%3A0xd11a5f0b379e6db7!2z55qH5bGF!5e0!3m2!1sja!2sjp!4v1744558316800!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37190.475396374364!2d139.72443448878846!3d35.65363158182218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c0d02d8064d%3A0xd11a5f0b379e6db7!2z55qH5bGF!5e0!3m2!1sja!2sjp!4v1744558316800!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                     <div class="txt txt-white">
                         <p class="txt-20">カイロプラクティックどんぐり</p>
                         <p class="txt-16">営業時間／平日 10:00〜21:00</p>

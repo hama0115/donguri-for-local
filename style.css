@@ -48,12 +48,25 @@ Author: どんぐり
     }
 } */
 .post{
-    padding: 100px 0;
+    padding: 50px;
+    background: var(--white);
+    border-radius: 20px;
     .post-title{
         font-weight: 500;
+        text-align: center;
+        font-family: 'Noto Serif JP', serif;
+        font-size: 3.5rem;
     }
     .post-meta{
         display: none;
+    }
+    .post-content{
+        width: min(100%, 800px);
+        margin: auto;
+        > p{
+            line-height: 1.8;
+            margin: 20px auto;
+        }
     }
     .return_button{
         width: 100px;
@@ -61,17 +74,161 @@ Author: どんぐり
     }
 }
 
+/* お問い合わせフォーム */
+.wpcf7 {
+/* border-radius: 10px;
+    width: min(90%, 600px);
+margin: auto; */
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: var(--black);
+    }
+    .required {
+        background-color: #ff0000;
+        color: white;
+        padding: 2px 5px;
+        border-radius: 3px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .wpcf7-form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid var(--gray);
+        border-radius: 5px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        background-color: var(--white);
+        height: 150px;
+        resize: vertical;
+    }
+    input[type="email"],
+    input[type="text"] {
+        border: 1px solid var(--gray);
+        width: 100%;
+        font-size: 16px;
+        height: 40px;
+        padding: 10px;
+        margin: 10px 0 0 0;
+        border-radius: 5px;
+    }
+    input[type="submit"] {
+        background-color: var(--black);
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border: none;
+        height: 50px;
+        width: min(50%, 200px);
+        align-content: center;
+        display: block;
+        margin: auto;
+        transition: all .4s ease;
+        font-size: 16px;
+        &:hover{
+            border-radius: 15px;
+            opacity: 0.8;
+        }
+    }
+    .wpcf7-not-valid-tip {
+        color: red;
+        font-size: 14px;
+    }
+    .wpcf7-mail-sent-ok {
+        color: green;
+        font-size: 16px;
+        text-align: center;
+        margin: auto;
+    }
+    form .wpcf7-response-output{
+        font-size: 16px;
+        text-align: center;
+        font-weight: 400;
+        border: none;
+        margin: 1em 0.5em 1em
+    }
+    form.invalid .wpcf7-response-output{
+        color: red;
+    }
+    form.sent .wpcf7-response-output{
+        color: green;
+    }
+    .wpcf7-spinner{
+        display: none;
+    }
+}
+
+/* 予約フォーム */
+#booking-package_calendarPage .symbolPanel, #booking-package_calendarPage .numberInsteadOfSymbols {
+    padding: 0px 0 15px !important;
+}
+.calendarData,
+#booking-package_schedulePage .selectedDate{
+    font-size: 2.0rem !important;
+}
+#booking-package_inputFormPanel .title_in_form {
+    font-size: 1.8rem !important;
+}
+#booking-package_schedulePage .closed {
+    position: relative;
+    background: #EEEEEE !important;
+    pointer-events: none;
+}
+#booking-package_schedulePage #scheduleMainPanel .closed {
+    &::after{
+        content: "予約不可または予約済みです";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.5rem;
+        color: red;
+    }
+}
+#booking-package_schedulePage .bottomPanelForPositionInherit {
+    justify-content: center;
+}
+#booking-package_inputFormPanel .form_text, #booking-package-loginform .form_text, #booking-package-user-form .form_text, #booking-package-user-edit-form .form_text {
+    padding: 10px !important;
+}
+#booking-package_inputFormPanel .row, #booking-package_myBookingDetails .row, #booking-package_serviceDetails .row, #booking-package_myBookingDetailsFroVisitor .row, #booking-package-user-form .row, #booking-package-loginform .row, #booking-package-user-edit-form .row {
+    padding: 15px 10px !important;
+}
+#booking_package_input_sex,
+#booking_package_input_part,
+#booking_package_input_symptoms,
+#booking_package_input_disease{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    label{
+        margin-bottom: 0 !important;
+        margin-right: 10px;
+    }
+}
+#booking-package_inputFormPanel .bottomBarPanel, #booking-package_pay_with_stripe_konbini .bottomBarPanel {
+    margin-top: 1em;
+    width: min(40%, 300px);
+    margin: 15px auto 0;
+}
+#returnToSchedules {
+    margin: 0 !important;
+}
+
 .top_page{
     /* fv */
+    background: var(--snow);
+    padding-top: 100px;
     #fv__area{
         position: relative;
         width: 100%;
-        height: 800px;
+        height: 660px;
         overflow: hidden;
         .slide{
             display: flex;
-            padding-top: 120px;
-            height: 30%;
+            height: 20%;
             justify-content: baseline;
             .item{
                 flex: 0 0 auto;
@@ -414,7 +571,8 @@ Author: どんぐり
     }
 }
 
-.contact_page{
+/* 削除予定 */
+.contact_page{ 
     background: var(--l-blue);
     padding: 140px 0;
     .inner{
@@ -511,18 +669,23 @@ Author: どんぐり
     height: 15%;
 } */
 
+.post-title{
+    font-size: 3.0rem !important;
+}
+
 .top_page{
+    padding-top: 80px;
     /* fv */
     #fv__area{
+        height: 600px;
         .slide{
-            padding-top: 20vh;
-            height: 35%;
+            height: 17%;
             .item{
                 font-size: 7.6rem;
             }
         }
         .content{
-            height: 50%;
+            height: 60%;
         }
     }
     
@@ -633,14 +796,62 @@ Author: どんぐり
 /* .fix{
     display: none;
 } */
+.post{
+    padding: 20px 0;
+    .post-content{
+        > p{
+            line-height: 1.6;
+            margin: 10px auto;
+        }
+    }
+    .post-title{
+        font-size: 2.5rem !important;
+    }
+}
+
+/* 予約フォーム */
+
+.calendarData,
+#booking-package_schedulePage .selectedDate{
+    font-size: 1.6rem !important;
+}
+#booking-package_inputFormPanel .title_in_form {
+    font-size: 1.6rem !important;
+}
+#booking-package_calendarPage .dateField {
+    padding: 5px 0 0 !important;
+}
+#booking-package_inputFormPanel .title_in_form, #booking-package_myBookingDetails .selectedDate {
+    padding: 0px 0 10px;
+}
+
+#booking-package_schedulePage #scheduleMainPanel .closed {
+    &::after{
+        line-height: 1.2;
+        font-size: 1.2rem;
+    }
+}
+#booking_package_input_sex, #booking_package_input_part, #booking_package_input_symptoms, #booking_package_input_disease {
+    gap: 5px;
+}
+#booking-package_inputFormPanel .row, #booking-package_myBookingDetails .row, #booking-package_serviceDetails .row, #booking-package_myBookingDetailsFroVisitor .row, #booking-package-user-form .row, #booking-package-loginform .row, #booking-package-user-edit-form .row {
+    padding: 10px 10px !important;
+}
+#booking-package_inputFormPanel .row {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+#booking-package_inputFormPanel .bottomBarPanel, #booking-package_pay_with_stripe_konbini .bottomBarPanel {
+    margin-top: .6em;
+}
 
 .top_page{
+    padding-top: 60px;
     /* fv */
     #fv__area{
         height: 630px;
         .slide{
-            padding-top: 60px;
-            height: 140px;
+            height: 13%;
             .item{
                 font-size: 5.6rem;
             }
@@ -693,7 +904,7 @@ Author: どんぐり
     
     /* about */
     #about__area{
-        padding: 0 0 50px 0;
+        padding: 0;
         .flex-start{
             gap: 20px;
             .txt-area{
@@ -712,8 +923,8 @@ Author: どんぐり
                 }
             }
             .pht-area{
-                width: 60%;
-                margin: auto;
+                width: 40%;
+                margin: 0 20px 0 auto;
             }
         }
     }
@@ -776,6 +987,8 @@ Author: どんぐり
                     }
                     .txt-16{
                         margin-left: 20px;
+                        text-align: left;
+                        line-height: 1.6;
                     }
                 }
                 .txt{
@@ -837,6 +1050,25 @@ Author: どんぐり
         }
     }
 }
+
+/* お問い合わせフォーム */
+.wpcf7 {
+    label {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    input[type="email"], input[type="text"] {
+        font-size: 14px;
+        margin: 5px 0 0 0;
+    }
+    input[type="submit"] {
+        height: 40px;
+    }
+    .wpcf7-form textarea {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+}
 }
 
 
@@ -861,4 +1093,18 @@ Author: どんぐり
     0%{bottom:5%;}
     50%{bottom:6%;}
     100%{bottom:5%;}
- }
+}
+@media screen and (max-width: 1024px) {
+    @keyframes arrowmove{
+        0%{bottom:8%;}
+        50%{bottom:9%;}
+        100%{bottom:8%;}
+    }
+}
+@media screen and (max-width: 767px) {
+    @keyframes arrowmove{
+        0%{bottom:8%;}
+        50%{bottom:9%;}
+        100%{bottom:8%;}
+    }
+}

@@ -27,15 +27,14 @@
 
             <div class="menu">
                 <ul class="header__social">
-                    <li><a href="/"><p class="txt-20">TOP</p></a></li>
-                    <li><a href="<?php echo get_permalink( get_page_by_path('contact') ); ?>"><p class="txt-20">お問い合わせ</p></a></li>
-                    <li><a href="<?php echo get_permalink( get_page_by_path('form') ); ?>"><p class="txt-20">WEB予約</p></a></li>
+                    <li><a href="/"><p class="txt-18">TOP</p></a></li>
+                    <li><a href="<?php echo get_permalink( get_page_by_path('contact') ); ?>"><p class="txt-18">お問い合わせ</p></a></li>
+                    <li><a href="<?php echo get_permalink( get_page_by_path('form') ); ?>"><p class="txt-18">WEB予約</p></a></li>
                     <li><a href="#"><i class="fab fa-instagram fa-4x"></i></a></li>
                     <li><a href="#"><i class="fab fa-line fa-4x"></i></a></li>
-                    <li class="pc"><p class="txt-24">Tel. 090-9227-2013</p></li>
-                    <li class="tb"><a href="tel:00000000000"><p class="txt-24"><i class="fas fa-phone fa-3x"></i>  090-9227-2013</p></a></li>
+                    <li class="pc"><p class="txt-20">Tel. 090-9227-2013</p></li>
+                    <li class="tb"><a href="tel:00000000000"><p class="txt-20"><i class="fas fa-phone fa-3x"></i>  090-9227-2013</p></a></li>
                 </ul>
             </div>
         </div>
     </header>
-    <main class="top_page">
