@@ -549,14 +549,15 @@ margin: auto; */
                 width: 100%;
                 margin: auto;
                 /* align-items: center; */
-                iframe{
+                .pht-area{
                     width: 50%;
-                    height: 350px;
                 }
                 .txt{
                     width: 40%;
                     margin-left: 5%;
-                    .txt-16{
+                    .txt-14,
+                    .txt-16,
+                    .txt-24{
                         &:not(:last-child){
                             margin-bottom: 10px;
                         }
@@ -1030,17 +1031,17 @@ margin: auto; */
             .flex{
                 width: 100%;
                 margin: auto;
-                iframe{
+                .pht-area{
                     width: 100%;
-                    height: 150px;
-                    margin: auto;
                 }
                 .txt{
                     width: 100%;
                     margin-left: 0;
                     margin-top: 10px;
                     line-height: 1.6;
-                    .txt-16{
+                    .txt-14,
+                    .txt-16,
+                    .txt-24{
                         &:not(:last-child){
                             margin-bottom: 5px;
                         }
