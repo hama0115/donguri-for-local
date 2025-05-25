@@ -87,23 +87,31 @@
                 <div class="title" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <p class="txt-14 en">Price</p>
                     <h2 class="txt-24">料金案内</h2>
-                    <section class="pricing">
-                        <div class="price-box">
-                            <h3>基本料金</h3>
-                            <p>3,500円（税込）</p>
-                            <p class="note">施術時間：60〜70分</p>
-                        </div>
-
-                        <div class="price-box">
-                            <h3>出張料金</h3>
-                            <ul>
-                            <li>車で20分圏内：<strong>＋500円</strong></li>
-                            <li>それ以降20分ごとに：<strong>＋500円</strong></li>
-                            </ul>
-                            <p class="note">※距離はGoogleマップ等で計測します。</p>
-                        </div>
-                    </section>
-
+                </div>
+                <div class="price-box" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                    <h3 class="txt-20">基本料金</h3>
+                    <div class="txt">
+                        <p class="txt-24">施術時間：60分</p>
+                        <p class="txt-48"><span class="en-a">3,500</span><span class="txt-20">円</span></p>
+                    </div>
+                </div>
+                <div class="price-box" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                    <h3 class="txt-20">出張料金</h3>
+                    <div class="txt">
+                        <p class="txt-16">お客様のご自宅などへの出張施術を希望される場合</p>
+                        <p class="txt-48"><span class="txt-24">基本料金 + </span><span class="en-a"> 500</span><span class="txt-20">円</span></p>
+                    </div>
+                    <p class="fukidashi txt-16">
+                        <span>伊勢市、その周辺への出張が可能です!!<br>ご自宅で施術を受けることができます。<br>ご予約の際、出張を希望する旨をお申し付けください。</span>
+                    </p>
+                </div>
+                <p class="txt-20 center" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><span>初診の場合、<span class="bold">最大で<span class="txt-24">90</span>分</span>ほどお時間をいただき<br class="pc">施術させていただくことがあります。</span></p>
+                <div class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                    <a href="<?php echo get_permalink( get_page_by_path('form') ); ?>"><span class="txt-20 txt-white">WEB予約はこちら</span></a>
+                    <a href="<?php echo get_permalink( get_page_by_path('contact') ); ?>"><span class="txt-20 txt-white">お問い合わせはこちら</span></a>
+                </div>
+                <div class="pht-area" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/price.png" alt="">
                 </div>
             </section>
         </div>
@@ -116,7 +124,7 @@
                 <div class="flex" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <div class="pht">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">
-                        <p class="txt-16 txt-white">カイロプラクター<br class="pc">喜多柊人</p>
+                        <p class="txt-16 txt-white">カイロプラクティック<br class="pc">どんぐり 喜多</p>
                     </div>
                     <div class="txt txt-white">
                         <p class="txt-16">ホームページをご覧いただき、誠にありがとうございます。</p>

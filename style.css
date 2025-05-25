@@ -417,50 +417,100 @@ margin: auto; */
     /* price */
     #price__area{
         padding: 80px 0;
-
-        .pricing {
-  padding: 2rem;
-  background: #f9f9f9;
-  font-family: "Arial", sans-serif;
-  .pricing h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-  
-  .price-box {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    h3 {
-      font-size: 1.4rem;
-      margin-bottom: 0.5rem;
-    }
-    p,
-    ul {
-      font-size: 1rem;
-      line-height: 1.6;
-    }
-    .note {
-      color: #666;
-      font-size: 0.9rem;
-      margin-top: 0.5rem;
-    }
-    
-    ul {
-      list-style: disc;
-      padding-left: 1.2rem;
-    }
-  }
-  
-  
-  
-}
-
-
+        .inner{
+            position: relative;
+            .price-box {
+                background: var(--white);
+                border: 1px solid var(--l-gray);
+                border-radius: 10px;
+                /* box-shadow: 0 4px 6px rgba(0,0,0,0.05); */
+                display: flex;
+                width: min(100%, 800px);
+                position: relative;
+                margin: 20px auto 0;
+                &:nth-child(n+2){
+                    margin-top: 20px;
+                }
+                h3 {
+                    width: 30%;
+                    height: auto;
+                    align-content: center;
+                    background: var(--blue);
+                    color: var(--white);
+                    text-align: center;
+                    border-radius: 10px 0 0 10px;
+                    /* font-weight: 600; */
+                }
+                .txt{
+                    width: 70%;
+                    align-items: center;
+                    align-content: center;
+                    height: 120px;
+                    text-align: center;
+                    .en-a{
+                        font-weight: bold;
+                    }
+                    .txt-48{
+                        line-height: 1.0;
+                    }
+                }
+                &:nth-child(2){
+                    .txt{
+                        display: flex;
+                        justify-content: center;
+                        gap: 20px;
+                    }
+                }
+            }
+            .fukidashi{
+                position: absolute;
+                background: var(--l-blue);
+                border-radius: 20px;
+                width: min(100%, 450px);
+                right: 0;
+                bottom: -150px;
+                padding: 20px 25px;
+                display: flex;
+                justify-content: center;
+                span{
+                    position: relative;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        top: -35px;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        border: 15px solid transparent;
+                        border-bottom: 20px solid var(--l-blue);
+                    }
+                }
+            }
+            .center{
+                text-align: center;
+                margin-top: 180px;
+                > span{
+                    position: relative;
+                    padding-left: 2rem;
+                    span{
+                        font-weight: 600;
+                        color: var(--black);
+                    }
+                    &::before{
+                        content: "※";
+                        position: absolute;
+                        top: 1.4rem;
+                        left: 0;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+            }
+            .pht-area{
+                position: absolute;
+                width: min(15%, 200px);
+                right: 0;
+                bottom: 10%;
+            }
+        }
     }
     
     /* profile */
@@ -513,9 +563,10 @@ margin: auto; */
                 text-align: initial;
                 width: 100%;
                 tr{
-                    border-bottom: 1px solid #e0e0e0;
+                    border-bottom: 1px solid var(--l-gray);
                     &:nth-child(1){
                         background: #c7dcea;
+                        background: var(--l-blue);
                     }
                     th{
                         vertical-align: middle;
@@ -734,7 +785,10 @@ margin: auto; */
     /* price */
     #price__area{
         padding:60px 0;
-    
+        .pht-area{
+            z-index: 10;
+            bottom: -24% !important;
+        }
     }
     
     /* profile */
@@ -967,7 +1021,82 @@ margin: auto; */
     /* price */
     #price__area{
         padding: 50px 0;
-    
+        .inner{
+            .price-box {
+                margin: 20px auto 0;
+                &:nth-child(n+2){
+                    margin-top: 10px;
+                }
+                h3 {
+                    font-size: 1.6rem;
+                }
+                .txt{
+                    height: 90px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding: 10px 15px;
+                    .txt-24{
+                        font-size: 1.6rem;
+                        width: 100%;
+                    }
+                    .txt-16{
+                        text-align: left;
+                        line-height: 1.4;
+                        font-size: 1.4rem;
+                    }
+                }
+                &:nth-child(2){
+                    .txt{
+                        gap: 0px;
+                    }
+                }
+            }
+            .fukidashi{
+                border-radius: 15px;
+                bottom: -150px;
+                padding: 10px 15px;
+                span{
+                    position: relative;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        top: -25px;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        border: 15px solid transparent;
+                        border-bottom: 20px solid var(--l-blue);
+                    }
+                }
+            }
+            .center{
+                text-align: left;
+                margin-top: 170px;
+                padding-left: 2rem;
+                position: relative;
+                font-size: 1.6rem;
+                > span{
+                    padding-left: 0;
+                    &::before{
+                        content: none;
+                    }
+                }
+                &::before{
+                    content: "※";
+                    position: absolute;
+                    top: 2rem;
+                    left: 1rem;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            .pht-area{
+                position: absolute;
+                width: min(20%, 200px);
+                right: 0;
+                z-index: 10;
+                bottom: -13% !important;
+            }
+        }
     }
     
     /* profile */
