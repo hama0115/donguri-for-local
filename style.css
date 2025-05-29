@@ -32,6 +32,11 @@ Author: どんぐり
         }
     }
 }
+/* sns誘導 */
+.sns-guide{
+    text-align: center;
+    margin-top: 1em;
+}
 /* .fix{
     position: fixed;
     bottom: 0;
