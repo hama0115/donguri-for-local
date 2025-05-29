@@ -534,6 +534,7 @@ margin: auto; */
                         border-radius: 50%;
                         position: relative;
                         overflow: hidden;
+                        margin: 0 auto;
                         img{
                             position: absolute;
                             top: 0;
