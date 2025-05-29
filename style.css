@@ -74,7 +74,7 @@ Author: どんぐり
     }
 }
 
-/* お問い合わせフォーム */
+/* お問い合わせフォーム(「Contact Form 7」) */
 .wpcf7 {
 /* border-radius: 10px;
     width: min(90%, 600px);
@@ -160,7 +160,7 @@ margin: auto; */
     }
 }
 
-/* 予約フォーム */
+/* 予約フォーム(「Booking Package」) */
 #booking-package_calendarPage .symbolPanel, #booking-package_calendarPage .numberInsteadOfSymbols {
     padding: 0px 0 15px !important;
 }
