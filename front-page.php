@@ -123,7 +123,13 @@
                 </div>
                 <div class="flex" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <div class="pht">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">
+                        <?php //フロントページのカスタムフィールドで設定した画像を表示
+                        $profile = get_field('profile-img');
+                        if ($profile): ?>
+                          <img src="<?php echo $profile['url']; ?>" alt="<?php echo $profile['alt']; ?>">
+                        <?php else: //設定画像がない場合はテーマに入った画像を表示 ?>
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">                          
+                        <?php endif; ?>
                         <p class="txt-16 txt-white">カイロプラクティック<br class="pc">どんぐり 喜多</p>
                     </div>
                     <div class="txt txt-white">
