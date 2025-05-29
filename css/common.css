@@ -419,7 +419,7 @@ font-size: 1.4vw;
 @media screen and (max-width: 767px) {
 /* inner */
 .inner {
-    width: min(100% - 4rem, 1100px);
+    width: min(100% - 8rem, 1100px);
 }
 header{
     height: 60px;
