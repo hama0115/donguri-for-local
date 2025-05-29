@@ -527,9 +527,21 @@ margin: auto; */
                 .pht{
                     width: 20%;
                     text-align: center;
-                    img{
-                        width: 100%;
-                        height: auto;
+                    .profile-img {
+                        width: 160px;
+                        aspect-ratio: 1 / 1;
+                        max-width: 100%;
+                        border-radius: 50%;
+                        position: relative;
+                        overflow: hidden;
+                        img{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
                     }
                     .txt-16{
                         margin-top: 10px;
@@ -1111,9 +1123,8 @@ margin: auto; */
                     width: 90%;
                     align-items: center;
                     margin: auto;
-                    img{
+                    .profile-img{
                         width: 80px;
-                        height: 80px;
                     }
                     .txt-16{
                         margin-left: 20px;
