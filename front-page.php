@@ -80,7 +80,7 @@
                     <a href="<?php echo get_permalink( get_page_by_path('form') ); ?>"><span class="txt-20 txt-white">WEB予約はこちら</span></a>
                     <a href="<?php echo get_permalink( get_page_by_path('contact') ); ?>"><span class="txt-20 txt-white">お問い合わせはこちら</span></a>                    
                 </div>
-                <p class="sns-guide">ほかに<a href="https://www.instagram.com/kitas.chiropractic.ise?igsh=MW0zeGxlNGxxeWdreQ==">Instagram</a>、<a href="#">公式LINE</a>などのSNSでもお気軽に連絡ください。</p>
+                <p class="sns-guide">ほかに<a href="https://www.instagram.com/kitas.chiropractic.ise?igsh=MW0zeGxlNGxxeWdreQ==">Instagram</a>、<a href="https://lin.ee/1ifxpHN">公式LINE</a>などのSNSでもお気軽に連絡ください。</p>
             </section>
         </div>
         <div id="price__area">
@@ -111,7 +111,7 @@
                     <a href="<?php echo get_permalink( get_page_by_path('form') ); ?>"><span class="txt-20 txt-white">WEB予約はこちら</span></a>
                     <a href="<?php echo get_permalink( get_page_by_path('contact') ); ?>"><span class="txt-20 txt-white">お問い合わせはこちら</span></a>
                 </div>
-                <p class="sns-guide">ほかに<a href="https://www.instagram.com/kitas.chiropractic.ise?igsh=MW0zeGxlNGxxeWdreQ==">Instagram</a>、<a href="#">公式LINE</a>などのSNSでもお気軽に連絡ください。</p>
+                <p class="sns-guide">ほかに<a href="https://www.instagram.com/kitas.chiropractic.ise?igsh=MW0zeGxlNGxxeWdreQ==">Instagram</a>、<a href="https://lin.ee/1ifxpHN">公式LINE</a>などのSNSでもお気軽に連絡ください。</p>
                 <div class="pht-area">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/price.png" alt="">
                 </div>
