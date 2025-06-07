@@ -303,6 +303,7 @@ margin: auto; */
     background: var(--snow);
     padding-top: 100px;
     position: relative;
+    overflow: hidden;
     #fv__area{
         position: relative;
         width: 100%;
