@@ -22,7 +22,7 @@
                     <li class="sns-item"><a href="https://www.instagram.com/kitas.chiropractic.ise?igsh=MW0zeGxlNGxxeWdreQ=="><i class="fab fa-instagram fa-4x"></i></a></li>
                     <li class="sns-item"><a href="https://lin.ee/1ifxpHN"><i class="fab fa-line fa-4x"></i></a></li>
                     <li class="pc"><p class="txt-20">Tel. 090-9227-2013</p></li>
-                    <li class="tb"><a href="tel:00000000000"><p class="txt-20"><i class="fas fa-phone fa-3x"></i>  090-9227-2013</p></a></li>
+                    <li class="tb"><a href="tel:09092272013"><p class="txt-20"><i class="fas fa-phone fa-3x"></i>  090-9227-2013</p></a></li>
                 </ul>
             </div>
         </div>
