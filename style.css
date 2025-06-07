@@ -1058,8 +1058,10 @@ margin: auto; */
         filter: invert(95%) sepia(5%) saturate(2569%) hue-rotate(25deg) brightness(92%) contrast(77%);
     }
     &:nth-child(1){
-        width: 100%;
-        top: 9%;
+        width: 170%;
+        top: 110px;
+        left: -120px;
+        transform: scale(-1, 1) rotate(-90deg);
     }
     &:nth-child(2){
         width: 100%;
@@ -1078,16 +1080,17 @@ margin: auto; */
     #fv__area{
         height: 630px;
         .slide{
-            height: 13%;
+            height: 15%;
+            transform: translateY(20px);
             .item{
                 font-size: 5.6rem;
             }
         }
         .content{
-            height: 400px;
+            height: 360px;
             .inner{
                 .txt{
-                    top: 20%;
+                    top: 15%;
                     left: 5%;
                     transform: translate(0, 0);
                     letter-spacing: .3rem;
@@ -1227,8 +1230,9 @@ margin: auto; */
             }
             .fukidashi{
                 border-radius: 15px;
-                bottom: -150px;
+                bottom: -140px;
                 padding: 10px 15px;
+                line-height: 1.6;
                 span{
                     position: relative;
                     &::before{
@@ -1248,6 +1252,7 @@ margin: auto; */
                 padding-left: 2rem;
                 position: relative;
                 font-size: 1.6rem;
+                line-height: 1.6;
                 > span{
                     padding-left: 0;
                     &::before{
@@ -1266,7 +1271,7 @@ margin: auto; */
                 position: absolute;
                 width: min(20%, 200px);
                 right: 0;
-                z-index: 10;
+                z-index: 1;
                 bottom: -13% !important;
             }
         }
