@@ -1,8 +1,14 @@
 <?php get_header(); ?>
     <main class="top_page">
-        <!-- <div class="fix">
-            <a href="#"><p class="txt-16 vertical1">お問い合わせ</p></a>
-        </div> -->
+        <div class="bg">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/leaf05.svg" alt="">
+        </div>
+        <div class="bg">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/leaf05.svg" alt="">
+        </div>
+        <div class="bg sp">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/leaf05.svg" alt="">
+        </div>
         <div id="fv__area">
             <ul class="slide">
                 <li class="item txt-accent en">CHIROPRACTIC HEALING FOR TRUE WELLNESS.</li>
@@ -11,9 +17,9 @@
             <div class="content" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                 <section class="inner">
                     <div class="txt">
-                        <h1 class="txt-white en txt-48"><span>カイロプラクティック</span>で<br>
+                        <h1 class="txt-dbrown en txt-48"><span>カイロプラクティック</span>で<br>
                             根本から整える健康ケア</h1>
-                        <p class="txt-18 txt-white en">姿勢、整っていますか？<br>
+                        <p class="txt-18 txt-dbrown en">姿勢、整っていますか？<br>
                             痛みや不調の原因は、意外と身近にあるものです。<br>
                             カイロプラクティックで“本来の自分”を取り戻しましょう。<br>
                             まずは一度、施術を受けてみませんか？</p>
@@ -54,11 +60,11 @@
         </div>
         <div id="time__area">
             <section class="inner">
-                <div class="title txt-white">
+                <div class="title txt-dbrown">
                     <p class="txt-14 en">Timeline</p>
                     <h2 class="txt-24">施術の流れ</h2>
                 </div>
-                <p class="txt-16 txt-center txt-white">問診から施術まで１時間程度となります。</p>
+                <p class="txt-16 txt-center txt-dbrown">問診から施術まで１時間程度となります。</p>
                 <div class="content flex-start">
                     <div class="item" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                         <p class="txt-24">1</p>
@@ -90,14 +96,14 @@
                     <h2 class="txt-24">料金案内</h2>
                 </div>
                 <div class="price-box">
-                    <h3 class="txt-20">基本料金</h3>
+                    <h3 class="txt-26">基本料金</h3>
                     <div class="txt">
                         <p class="txt-24">施術時間：60分</p>
                         <p class="txt-48"><span class="en-a">3,500</span><span class="txt-20">円</span></p>
                     </div>
                 </div>
                 <div class="price-box">
-                    <h3 class="txt-20">出張料金</h3>
+                    <h3 class="txt-26">出張料金</h3>
                     <div class="txt">
                         <p class="txt-16">お客様のご自宅などへの出張施術を希望される場合</p>
                         <p class="txt-48"><span class="txt-24">基本料金 + </span><span class="en-a"> 500</span><span class="txt-20">円</span></p>
@@ -111,7 +117,7 @@
                     <a href="<?php echo get_permalink( get_page_by_path('form') ); ?>"><span class="txt-20 txt-white">WEB予約はこちら</span></a>
                     <a href="<?php echo get_permalink( get_page_by_path('contact') ); ?>"><span class="txt-20 txt-white">お問い合わせはこちら</span></a>
                 </div>
-                <p class="sns-guide">ほかに<a href="https://www.instagram.com/kitas.chiropractic.ise?igsh=MW0zeGxlNGxxeWdreQ==">Instagram</a>、<a href="https://lin.ee/1ifxpHN">公式LINE</a>などのSNSでもお気軽に連絡ください。</p>
+                <p class="sns-guide">ほかに<a href="https://www.instagram.com/kitas.chiropractic.ise?igsh=MW0zeGxlNGxxeWdreQ==">Instagram</a>、<a href="https://lin.ee/1ifxpHN">公式LINE</a>などの<br class="sp">SNSでもお気軽に連絡ください。</p>
                 <div class="pht-area">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/price.png" alt="">
                 </div>
@@ -119,7 +125,7 @@
         </div>
         <div id="profile__area">
             <section class="inner">
-                <div class="title txt-white">
+                <div class="title txt-dbrown">
                     <p class="txt-14 en">Greeting</p>
                     <h2 class="txt-24">ごあいさつ</h2>
                 </div>
@@ -134,9 +140,9 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">                          
                           <?php endif; ?>
                         </div>
-                        <p class="txt-16 txt-white">カイロプラクティック<br class="pc">どんぐり 喜多</p>
+                        <p class="txt-16 txt-dbrown">カイロプラクティック<br class="pc">どんぐり 喜多</p>
                     </div>
-                    <div class="txt txt-white" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                    <div class="txt txt-dbrown" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                         <p class="txt-16">ホームページをご覧いただき、誠にありがとうございます。</p>
                         <p class="txt-16">「身体本来の力を引き出す施術」を大切にし、お一人おひとりの症状や生活スタイルに寄り添ったカイロプラクティック施術を提供しております。肩こりや腰痛、姿勢のゆがみなど、現代人が抱えるさまざまな不調は、身体のバランスの乱れからくることが少なくありません。<br>
 だからこそ、ただ一時的な痛みを和らげるのではなく、根本的な原因に向き合い、丁寧なカウンセリングと施術を通じて、健康的な身体づくりをサポートしていきたいと考えております。<br></p>
@@ -190,7 +196,7 @@
         </div>
         <div id="map__area">
             <section class="inner">
-                <div class="title txt-white">
+                <div class="title txt-dbrown">
                     <p class="txt-14 en">Access & Map</p>
                     <h2 class="txt-24">アクセス＆マップ</h2>
                 </div>
@@ -198,7 +204,7 @@
                     <div class="pht-area">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/map.png" alt="出張マップ">
                     </div>
-                    <div class="txt txt-white">
+                    <div class="txt txt-dbrown">
                         <p class="txt-24">カイロプラクティックどんぐり</p>
                         <p class="txt-16">営業時間／全日(不定休) 10:00〜21:00</p>
                         <p class="txt-16">住所：三重県伊勢市小俣町</p>
