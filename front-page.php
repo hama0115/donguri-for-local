@@ -172,7 +172,7 @@
                             <td class="txt-16">日</td>
                         </tr>
                         <tr>
-                            <th class="txt-16">10:00-21:00</th>
+                            <th class="txt-16"> 09:00-21:00</th>
                             <td class="txt-16">○</td>
                             <td class="txt-16">○</td>
                             <td class="txt-16">○</td>
@@ -206,7 +206,7 @@
                     </div>
                     <div class="txt txt-dbrown">
                         <p class="txt-24">カイロプラクティックどんぐり</p>
-                        <p class="txt-16">営業時間／全日(不定休) 10:00〜21:00</p>
+                        <p class="txt-16">営業時間／全日(不定休) 09:00〜21:00</p>
                         <p class="txt-16">住所：三重県伊勢市小俣町</p>
                         <p class="txt-14">施術者の自宅での施術をご希望の場合、ご予約の際に正確な住所をお知らせいたします。</p>
                         <p class="txt-16 indent">※出張施術の場合、営業時間外の対応も可能です。また、伊勢市を中心にその周辺への出張も承っております。<br class="pc">ご予約時にご相談ください。</p>
