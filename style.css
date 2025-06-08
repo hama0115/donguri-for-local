@@ -1,8 +1,8 @@
 /*
-Theme Name: どんぐり(べえlocal用)
-Description: どんぐり用テーマ
-Version: 001
-Author: どんぐり
+Theme Name: カイロプラクティックどんぐり
+Description: 「カイロプラクティックどんぐり」のウェブサイト用テーマ
+Version: 1.0
+Author: カイロプラクティックどんぐり情報システム部
 */
 @charset "UTF-8";
 /* common */
@@ -811,6 +811,12 @@ margin: auto; */
         }
     }
 }
+.page404{
+    padding-top: 100px;
+    .txt-16{
+        margin-bottom: 15px;
+    }
+}
 
 
 /* 1024px */
@@ -1357,6 +1363,12 @@ margin: auto; */
                 }
             }
         }
+    }
+}
+.page404{
+    padding-top: 60px;
+    .txt-16{
+        margin-bottom: 10px;
     }
 }
 
