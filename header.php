@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="三重県伊勢市のカイロプラクター。お気軽に周辺への出張も承っております。">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
