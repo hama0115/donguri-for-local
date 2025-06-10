@@ -112,7 +112,7 @@
                         <span>伊勢市、その周辺への出張が可能です!!<br>ご自宅で施術を受けることができます。<br>ご予約の際、出張を希望する旨をお申し付けください。</span>
                     </p>
                 </div>
-                <p class="txt-20 center"><span>初診の場合、<span class="bold">最大で<span class="txt-24">90</span>分</span>ほどお時間をいただき<br class="pc">施術させていただくことがあります。</span></p>
+                <p class="txt-20 center"><span>初診の場合、<span class="bold">最大で<span class="txt-24">90</span>分</span>ほどお時間をいただき<br class="pc">施術させていただくことがあります。<br class="pc">時間は90分ですが施術料金は一切変わりません</span></p>
                 <div class="btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <a href="<?php echo get_permalink( get_page_by_path('form') ); ?>"><span class="txt-20 txt-white">WEB予約はこちら</span></a>
                     <a href="<?php echo get_permalink( get_page_by_path('contact') ); ?>"><span class="txt-20 txt-white">お問い合わせはこちら</span></a>
