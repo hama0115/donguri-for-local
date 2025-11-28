@@ -19,6 +19,8 @@ function enqueue_scripts() {
   wp_enqueue_script('gsap', 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js');
   //自作jsの読み込み
   wp_enqueue_script('script-js', get_stylesheet_directory_uri() . '/js/script.js', [], '1.0', true);
+  //rotate.jsの読み込み
+  wp_enqueue_script('rotate-js', get_stylesheet_directory_uri() . '/js/rotate.js', [], '1.0', true);
   //AOSの読み込み
   wp_enqueue_script('aos', 'https://unpkg.com/aos@2.3.1/dist/aos.js', [], '2.3.1', true);
   //AOSの初期化

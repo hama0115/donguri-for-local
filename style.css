@@ -4,6 +4,9 @@ Description: 「カイロプラクティックどんぐり」のウェブサイ�
 Version: 1.0
 Author: カイロプラクティックどんぐり情報システム部
 */
+
+/* PCファーストで記述。reset.css、common.css、setting.cssあり */
+
 @charset "UTF-8";
 /* common */
 .title{
@@ -30,6 +33,26 @@ Author: カイロプラクティックどんぐり情報システム部
             border-radius: 15px;
             opacity: .8;
         }
+        span{
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3em; 
+        }
+        span::before{
+            content: "";
+            
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            
+            background: var(--white); /* ← 色を自由に変えられる */
+            -webkit-mask-image: url("img/donguri-sample.svg");
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-size: contain;
+            mask-image: url("img/donguri-sample.svg");
+            mask-repeat: no-repeat;
+            mask-size: contain;
+          }
     }
 }
 /* sns誘導 */
@@ -333,7 +356,7 @@ margin: auto; */
         }
         .content{
             position: relative;
-            background: var(--blue);
+            background: var(--main-brown);
             height: 400px;
             /* opacity: .9; */
             .inner{
@@ -441,8 +464,8 @@ margin: auto; */
     /* time */
     #time__area{
         .inner{
-            background: var(--blue);
-            box-shadow: 0 0 0 100vmax var(--blue);
+            background: var(--main-brown);
+            box-shadow: 0 0 0 100vmax var(--main-brown);
             clip-path: inset(0 -100px);
             padding: 80px 0;
             .flex-start{
@@ -523,7 +546,7 @@ margin: auto; */
                     width: 30%;
                     height: auto;
                     align-content: center;
-                    background: var(--l-blue);
+                    background: var(--accent-brown);
                     color: var(--white);
                     text-align: center;
                     border-radius: 10px 0 0 10px;
@@ -553,7 +576,7 @@ margin: auto; */
             }
             .fukidashi{
                 position: absolute;
-                background: var(--blue);
+                background: var(--main-brown);
                 border-radius: 20px;
                 width: min(100%, 450px);
                 right: 0;
@@ -570,7 +593,7 @@ margin: auto; */
                         left: 50%;
                         transform: translate(-50%, -50%);
                         border: 15px solid transparent;
-                        border-bottom: 20px solid var(--blue);
+                        border-bottom: 20px solid var(--main-brown);
                     }
                 }
             }
@@ -605,8 +628,8 @@ margin: auto; */
     /* profile */
     #profile__area{
         .inner{
-            background: var(--blue);
-            box-shadow: 0 0 0 100vmax var(--blue);
+            background: var(--main-brown);
+            box-shadow: 0 0 0 100vmax var(--main-brown);
             clip-path: inset(0 -100px);
             padding: 70px 0 100px;
             .flex{
@@ -668,7 +691,7 @@ margin: auto; */
                     border-bottom: 1px solid var(--l-gray);
                     &:nth-child(1){
                         background: #c7dcea;
-                        background: var(--l-blue);
+                        background: var(--accent-brown);
                         color: var(--white);
                         opacity: .9;
                     }
@@ -697,7 +720,7 @@ margin: auto; */
     
     /* map */
     #map__area{
-        background: var(--blue);
+        background: var(--main-brown);
         position: relative;
         .inner{
             padding: 80px 0;
@@ -730,7 +753,7 @@ margin: auto; */
 
 /* 削除予定 */
 .contact_page{ 
-    background: var(--l-blue);
+    background: var(--accent-brown);
     padding: 140px 0;
     .inner{
         background: var(--white);
@@ -770,7 +793,7 @@ margin: auto; */
             .question{
                 margin-top: 40px;
                 .en-a{
-                    color: var(--blue);
+                    color: var(--main-brown);
                     font-weight: 500;
                     font-size: 2.2rem;
                     margin-right: 10px;
@@ -1249,7 +1272,7 @@ margin: auto; */
                         left: 50%;
                         transform: translate(-50%, -50%);
                         border: 15px solid transparent;
-                        border-bottom: 20px solid var(--blue);
+                        border-bottom: 20px solid var(--main-brown);
                     }
                 }
             }

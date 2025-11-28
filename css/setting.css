@@ -1,16 +1,15 @@
+/* メインカラーはうすい茶色、アクセントカラーは濃い茶色(2025/11/28) */
 :root {
     --white: #fff;
     --gray: #D9D9D9;
     --l-gray: #DFDFDF;
     --black: #333333;
-    /* --blue: #92AEBB;
-    --l-blue: #E4EFEF; */
+    /* 茶色系統(サイトの基本色) */
+    --main-brown: #EAE4E2;
+    --accent-brown: #7A4D3B;
+    --brown: #4D3F3E; /* 使ってないかも? */
+    --snow: #fafafa;
     /* 緑系統 */
     --l-green: #d8e698;
     --green: #99ab4e;
-    /* 茶色系統 */
-    --l-blue: #7A4D3B;
-    --blue: #EAE4E2;
-    --brown: #4D3F3E;
-    --snow: #fafafa;
 }

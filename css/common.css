@@ -119,17 +119,17 @@ color: var(--black);
 .txt-dbrown {
 color: var(--brown);
 }
-.txt-brown {
+.txt-brown { /* ? */
 color: var(--l-blue);
 }
 .txt-green {
 color: var(--green);
 }
 .txt-main {
-color: var(--blue);
+color: var(--main-brown);
 }
 .txt-accent {
-color: var(--l-blue);
+color: var(--accent-brown);
 }
 
 /* 横幅 */
@@ -288,7 +288,7 @@ header{
     background: var(--snow);
     z-index: 10;
     &.l-blue{
-        background: var(--l-blue);
+        background: var(--accent-brown);
     }
     .flex-start{
         position: relative;
@@ -310,8 +310,23 @@ header{
             z-index: 1;
         }
         .header__logo{
+            position: relative;
+            a{
+                display: inline-block;
+                position: relative;
+                z-index: 10;
+                background-color: #fff;
+            }
             img{
                 height: 40px;
+            }
+            .donguri-logo{
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                color: #ff0000;
             }
         }
         .header__social{
@@ -493,7 +508,7 @@ header{
             height: 100vh;
             top: 0;
             padding-top: 60px;
-            background: var(--blue);
+            background: var(--main-brown);
             transition: all .4s;
             transform: scale(0, 1);
             transform-origin: right;
