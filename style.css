@@ -785,6 +785,15 @@ margin: auto; */
 .archive_desc{
     margin-bottom: 80px;
 }
+.article_lists{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card_pic img{
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+}
 
 /* サイドバー */
 .sidebar{

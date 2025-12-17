@@ -22,7 +22,7 @@
                                 </div>
                                 <div class="card_body">
                                     <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m月d日') ?></time>
-                                    <h2 class="card_title"><?php the_title(); ?></h2>
+                                    <h2 class="card_title txt-14"><?php the_title(); ?></h2>
                                 </div>
                             </a>
                         </article>
