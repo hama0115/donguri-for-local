@@ -790,9 +790,15 @@ margin: auto; */
     gap: 30px;
     grid-template-columns: repeat(3, 1fr);
 }
+.card_pic{
+    margin-bottom: 10px;
+}
 .card_pic img{
     object-fit: cover;
     aspect-ratio: 4 / 3;
+}
+.card_body time{
+    color: var(--accent-brown);
 }
 
 /* サイドバー */
