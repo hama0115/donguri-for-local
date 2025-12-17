@@ -644,7 +644,7 @@ margin: auto; */
                 .pht{
                     width: 20%;
                     text-align: center;
-                    .profile-img {
+                    .profile_img {
                         width: 160px;
                         aspect-ratio: 1 / 1;
                         max-width: 100%;
@@ -1331,7 +1331,7 @@ margin: auto; */
                     width: 90%;
                     align-items: center;
                     margin: auto;
-                    .profile-img{
+                    .profile_img{
                         width: 80px;
                     }
                     .txt-16{

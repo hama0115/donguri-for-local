@@ -131,7 +131,7 @@
                 </div>
                 <div class="flex">
                     <div class="pht">
-                        <div class="profile-img" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                        <div class="profile_img" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                           <?php //フロントページのカスタムフィールドで設定した画像を表示
                           $profile = get_field('profile-img');
                           if ($profile): ?>
