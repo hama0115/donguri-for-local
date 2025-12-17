@@ -762,6 +762,40 @@ margin: auto; */
     padding-top: 100px;
     position: relative;
     overflow: hidden;
+    .inner{
+        width: min(100% - 10rem, 1200px);
+    }
+    .flex{
+        gap: 70px;
+    }
+}
+.blog_wrapper{
+    max-width: 700px;
+    padding: 50px;
+    background: var(--white);
+    border-radius: 20px;
+}
+.sidebar{
+    max-width: 350px;
+}
+.sidebar_item{
+    margin-bottom: 40px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: var(--white);
+    border-radius: 20px;
+}
+.profile_img{
+    max-width: 92px;
+    margin: 0 auto 1.6rem;
+}
+.profile_textarea{    
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+.profile_name{
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 /* 削除予定 */

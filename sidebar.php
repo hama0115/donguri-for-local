@@ -1,16 +1,18 @@
 <aside class="sidebar">
     <div class="sidebar_item side_profile">
-      <div class="profile_img">
-          <?php //フロントページのカスタムフィールドで設定した画像を表示
-          $profile = get_field('profile-img');
-          if ($profile): ?>
-              <img src="<?php echo $profile['url']; ?>" alt="<?php echo $profile['alt']; ?>">
-          <?php else: //設定画像がない場合はテーマに入った画像を表示 ?>
-              <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">
-          <?php endif; ?>
-      </div>
-      <p class="profile_name">喜多 柊人</p>
-      <p class="profile_desc">伊勢市出身、在住のカイロプラクター。副業として山に入り、猟をすることも。主なエリアは伊勢市や鳥羽市、伊賀市。二見を根城にしているしゅんちゃん熊を駆除したことで有名。</p>
+          <div class="profile_img">
+              <?php //フロントページのカスタムフィールドで設定した画像を表示
+              $profile = get_field('profile-img');
+              if ($profile): ?>
+                  <img src="<?php echo $profile['url']; ?>" alt="<?php echo $profile['alt']; ?>">
+              <?php else: //設定画像がない場合はテーマに入った画像を表示 ?>
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">
+              <?php endif; ?>
+          </div>
+          <div class="profile_textarea">
+              <p class="profile_name txt-center">喜多 柊人</p>
+              <p class="profile_desc txt-14">伊勢市出身、在住のカイロプラクター。副業として山に入り、猟をすることも。主なエリアは伊勢市や鳥羽市、伊賀市。二見を根城にしているしゅんちゃん熊を駆除したことで有名。</p>
+          </div>
     </div>
     <div class="sidebar_item">
           <p>新着記事</p>
