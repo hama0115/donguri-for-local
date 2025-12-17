@@ -1,5 +1,8 @@
 <?php
 
+//アイキャッチ画像を使用可能にする
+add_theme_support('post-thumbnails');
+
 //CSS,JSの読み込み
 function enqueue_scripts() {
   //fontawesomeの読み込み
