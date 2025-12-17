@@ -838,6 +838,13 @@ margin: auto; */
 }
 
 /* 個別投稿ページ(テンプレートでつけたクラス「.post-content」を使っているが、wpが付与するクラスを使った方がいいかも?) */
+.single-post a{
+    color: var(--black);
+}
+.single-post a:hover{
+    color: var(--black);
+    text-decoration: underline;    
+}
 .post_title{
     font-weight: 500;
     margin-top: 20px;
@@ -846,13 +853,17 @@ margin: auto; */
 .post_date{
     margin-bottom: 5px;
 }
-.single-post .category_list{ /* common.cssのflexを上書き */
-    gap: 1em;
+.single-post .category_list{
+    color: var(--accent-brown);
+    gap: 1em; /* common.cssのflexを上書き */
 }
 .single-post .category_item{ /* .single-postはwp付与のクラス */
     padding: 0.5em 1em;
     border: solid var(--accent-brown) 1px;
     border-radius: 20px;
+    a{
+        color: var(--accent-brown);
+    }
 }
 .thumbnail_area{
     margin-top: 20px;
