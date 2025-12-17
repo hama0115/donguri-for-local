@@ -19,8 +19,8 @@
                                 <?php endif; ?>
                             </div>
                             <div class="card_body">
-                                <h2 class="card_title"></h2>
-                                <time></time>
+                                <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y年m月d日') ?></time>
+                                <h2 class="card_title"><?php the_title(); ?></h2>                                
                             </div>
                         </a>
                     </section>
