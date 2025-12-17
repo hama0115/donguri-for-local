@@ -765,7 +765,7 @@ margin: auto; */
     .inner{
         width: min(100% - 10rem, 1200px);
     }
-    .flex{
+    > .flex{
         gap: 70px;
     }
 }
@@ -835,6 +835,58 @@ margin: auto; */
 /* 最後のタイトル以外はmbをつける */
 .post-title:not(:last-child){
     margin-bottom: 0.5em;
+}
+
+/* 個別投稿ページ(テンプレートでつけたクラス「.post-content」を使っているが、wpが付与するクラスを使った方がいいかも?) */
+.post_title{
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 1.2rem;
+}
+.post_date{
+    margin-bottom: 5px;
+}
+.single-post .category_list{ /* common.cssのflexを上書き */
+    gap: 1em;
+}
+.single-post .category_item{ /* .single-postはwp付与のクラス */
+    padding: 0.5em 1em;
+    border: solid var(--accent-brown) 1px;
+    border-radius: 20px;
+}
+.thumbnail_area{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.post_content > h2{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-bottom: solid var(--accent-brown) 1px;
+}
+.post_content > h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    border-left: solid var(--accent-brown) 2px;
+    padding-left: 1em;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+}
+.post_content > p{
+    margin-bottom: 2em;
+}
+/* 投稿の中の画像 */
+.wp-block-image img{
+    margin-bottom: 10px;
+}
+.wp-block-image .wp-element-caption{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 /* 削除予定 */

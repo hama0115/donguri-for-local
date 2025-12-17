@@ -6,17 +6,19 @@
                 <?php if(have_posts()): ?>
                     <article>
                     <?php while(have_posts()): the_post(); ?>                      
-                        <h1 class="post-title"><?php the_title(); ?></h1>
+                        <h1 class="post_title txt-24"><?php the_title(); ?></h1>
                         <div class="post-info">
                             <!-- 投稿日時の表示 -->
-                            <time datetime="<?php the_time('Y-m-d'); ?>" class="txt-10"><?php the_time('Y年m月d日') ?></time>
+                            <p class="post_date">
+                              <time datetime="<?php the_time('Y-m-d'); ?>" class="txt-14"><?php the_time('Y年m月d日') ?></time>
+                            </p>
                             <!-- カテゴリーをリンクで出力 -->
                             <?php
                             $categories = get_the_category();
                             if($categories):
                             ?>
                             <div class="category">
-                                <div class="category_list">
+                                <div class="category_list flex">
                                     <?php foreach ($categories as $category): ?>
                                         <div class="category_item">
                                             <a href="<?php echo get_category_link($category); ?>"><?php echo $category->name; ?></a>
@@ -26,7 +28,15 @@
                             </div>
                             <?php endif; ?>
                         </div>
-                        <div class="post-content">
+                        <!-- サムネイルがある場合、元画像の大きさで表示する -->
+                        <div class="thumbnail_area">
+                            <?php if(has_post_thumbnail()): ?>
+                                <?php the_post_thumbnail(); ?>
+                            <?php else: ?>
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">
+                            <?php endif; ?>
+                        </div>
+                        <div class="post_content">
                           <?php the_content(); ?>
                         </div>
                     </article>
