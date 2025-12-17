@@ -797,6 +797,18 @@ margin: auto; */
     font-weight: 700;
     margin-bottom: 10px;
 }
+.new_posts_header{
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.new_posts{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+/* 最後のタイトル以外はmbをつける */
+.post-title:not(:last-child){
+    margin-bottom: 0.5em;
+}
 
 /* 削除予定 */
 .contact_page{ 

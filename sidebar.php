@@ -14,8 +14,8 @@
               <p class="profile_desc txt-14">伊勢市出身、在住のカイロプラクター。副業として山に入り、猟をすることも。主なエリアは伊勢市や鳥羽市、伊賀市。二見を根城にしているしゅんちゃん熊を駆除したことで有名。</p>
           </div>
     </div>
-    <div class="sidebar_item">
-          <p>新着記事</p>
+    <div class="sidebar_item new_posts">
+          <p class="new_posts_header txt-center">新着記事</p>
           <?php
           $args = array(
             'post_type' => 'post',
