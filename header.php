@@ -6,7 +6,8 @@
     <?php wp_head(); ?>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
-<body>
+<body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
     <header>
         <div class="flex-start">
             <div class="header__logo">

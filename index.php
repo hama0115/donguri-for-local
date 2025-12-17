@@ -1,8 +1,5 @@
 <?php get_header(); ?>
     <main class="top_page">
-        <!-- <div class="fix">
-            <a href="#"><p class="txt-16 vertical1">お問い合わせ</p></a>
-        </div> -->
         <div id="fv__area">
             <ul class="slide">
                 <li class="item txt-accent en">CHIROPRACTIC HEALING FOR TRUE WELLNESS.</li>
