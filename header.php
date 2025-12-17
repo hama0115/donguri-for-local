@@ -41,6 +41,7 @@
                     <li><a href="/"><p class="txt-18">TOP</p></a></li>
                     <li><a href="<?php echo get_permalink( get_page_by_path('contact') ); ?>"><p class="txt-18">お問い合わせ</p></a></li>
                     <li><a href="<?php echo get_permalink( get_page_by_path('form') ); ?>"><p class="txt-18">WEB予約</p></a></li>
+                    <li><a href="<?php echo get_permalink( get_page_by_path('blog') ); ?>"><p class="txt-18">ブログ</p></a></li>
                     <li class="sns-item"><a href="https://www.instagram.com/kitas.chiropractic.ise?igsh=MW0zeGxlNGxxeWdreQ=="><i class="fab fa-instagram fa-4x"></i></a></li>
                     <li class="sns-item"><a href="https://lin.ee/1ifxpHN"><i class="fab fa-line fa-4x"></i></a></li>
                     <li class="pc"><p class="txt-20">Tel. 090-9227-2013</p></li>
