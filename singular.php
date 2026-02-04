@@ -42,7 +42,7 @@
                     </article>
                     <?php endwhile; ?>
                 <?php else: ?>
-                    <p>記事がありません</p>
+                    <p>現在、準備中です。</p>
                 <?php endif; ?>
             </div>
             <!-- サイドバーのテンプレートの読み込み -->

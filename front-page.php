@@ -99,7 +99,7 @@
                     <h3 class="txt-26">基本料金</h3>
                     <div class="txt">
                         <p class="txt-24">施術時間：60分</p>
-                        <p class="txt-48"><span class="en-a">4,400</span><span class="txt-20">円（税込）</span></p>
+                        <p class="txt-48"><span class="en-a">4,500</span><span class="txt-20">円（税込）</span></p>
                     </div>
                 </div>
                 <div class="price-box">
