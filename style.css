@@ -1189,6 +1189,21 @@ margin: auto; */
       }
     }
   }
+
+  .blog_page {
+    .inner {
+      width: min(100% - 5rem, 1200px);
+    }
+  }
+  .blog_wrapper {
+    padding: 30px 20px;
+  }
+  .article_lists {
+    display: block;
+  }
+  .article_card {
+    margin-bottom: 50px;
+  }
 }
 
 /* max 767px */
