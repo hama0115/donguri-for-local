@@ -820,12 +820,17 @@ margin: auto; */
   gap: 30px;
   grid-template-columns: repeat(3, 1fr);
 }
+.card:hover .card_pic img {
+  transform: scale(1.1);
+}
 .card_pic {
   margin-bottom: 10px;
+  overflow: hidden;
 }
 .card_pic img {
   object-fit: cover;
   aspect-ratio: 4 / 3;
+  transition: transform 0.3s ease;
 }
 .card_body time {
   color: var(--accent-brown);
