@@ -17,7 +17,7 @@
                                     <?php if(has_post_thumbnail()): ?>
                                         <?php the_post_thumbnail('thumbnail'); ?>
                                     <?php else: ?>
-                                      <img src="<?php echo get_template_directory_uri(); ?>/img/gray.png" alt="">
+                                      <img src="<?php echo get_template_directory_uri(); ?>/img/noimage.jpg" alt="">
                                     <?php endif; ?>
                                 </div>
                                 <div class="card_body">
