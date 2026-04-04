@@ -792,10 +792,11 @@ margin: auto; */
   padding-top: 100px;
   position: relative;
   .inner {
-    width: min(100% - 10rem, 1200px);
+    width: min(100% - 10rem, 1100px);
   }
   > .flex {
-    gap: 70px;
+    gap: 50px;
+    justify-content: space-between;
   }
 }
 .blog_wrapper {
@@ -1192,6 +1193,7 @@ margin: auto; */
     }
   }
 
+  /* 記事一覧ページ */
   .blog_page {
     .inner {
       width: min(100% - 5rem, 1200px);
@@ -1205,6 +1207,11 @@ margin: auto; */
   }
   .article_card {
     margin-bottom: 50px;
+  }
+
+  /* サイドバー */
+  .sidebar {
+    max-width: none;
   }
 }
 
