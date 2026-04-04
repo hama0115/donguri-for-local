@@ -931,6 +931,8 @@ margin: auto; */
 /* 投稿の中の画像 */
 .wp-block-image img {
   margin-bottom: 10px;
+  max-height: 80vh;
+  object-fit: contain;
 }
 .wp-block-image .wp-element-caption {
   text-align: center;
