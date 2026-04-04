@@ -27,7 +27,7 @@
 
           <div class="post-title">
               <a href="<?php the_permalink() ?>">
-                <p><?php the_title(); ?></p>
+                <p class="txt-14"><?php the_title(); ?></p>
               </a>
           </div>
 
