@@ -791,7 +791,6 @@ margin: auto; */
   background: var(--snow);
   padding-top: 100px;
   position: relative;
-  overflow: hidden;
   .inner {
     width: min(100% - 10rem, 1200px);
   }
@@ -834,6 +833,9 @@ margin: auto; */
 /* サイドバー */
 .sidebar {
   max-width: 350px;
+  align-self: flex-start;
+  position: sticky;
+  top: 100px;
 }
 .sidebar_item {
   margin-bottom: 40px;
