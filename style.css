@@ -777,7 +777,7 @@ margin: auto; */
   }
 }
 
-/* 記事一覧ページ */
+/*-- ブログ記事一覧ページ --*/
 .blog_page {
   a {
     color: var(--black);
@@ -836,39 +836,45 @@ margin: auto; */
   color: var(--accent-brown);
 }
 
-/* サイドバー */
+/*-- ブログサイドバー --*/
 .sidebar {
   max-width: 250px;
   align-self: flex-start;
   position: sticky;
   top: 100px;
 }
+
+/* サイドバーのアイテムのコンテナ */
 .sidebar_item {
   margin-bottom: 40px;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background: var(--white);
   border-radius: 20px;
 }
+
+/* プロフィール欄 */
 .profile_img {
   max-width: 92px;
   margin: 0 auto 1.6rem;
 }
 .profile_textarea {
-  padding-left: 1.6rem;
-  padding-right: 1.6rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
 }
 .profile_name {
   font-weight: 500;
   margin-bottom: 10px;
 }
+
+/* 新着記事エリア */
 .new_posts_header {
   font-weight: 500;
   margin-bottom: 1em;
 }
 .new_posts {
-  padding-left: 1.6rem;
-  padding-right: 1.6rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
 }
 /* 最後のタイトル以外はmbをつける */
 .post-title:not(:last-child) {
