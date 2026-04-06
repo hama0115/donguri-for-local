@@ -11,7 +11,7 @@
           </div>
           <div class="profile_textarea">
               <p class="profile_name txt-center">喜多 柊人</p>
-              <p class="profile_desc txt-14">伊勢市出身、在住のカイロプラクター。副業として山に入り、猟をすることも。主なエリアは伊勢市や鳥羽市、伊賀市。</p>
+              <p class="profile_desc txt-16">伊勢市出身、在住のカイロプラクター。副業として山に入り、猟をすることも。主なエリアは伊勢市や鳥羽市、伊賀市。</p>
           </div>
     </div>
     <div class="sidebar_item new_posts">
@@ -27,7 +27,7 @@
 
           <div class="post-title">
               <a href="<?php the_permalink() ?>">
-                <p class="txt-14"><?php the_title(); ?></p>
+                <p class="txt-16"><?php the_title(); ?></p>
               </a>
           </div>
 

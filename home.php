@@ -13,6 +13,7 @@
                     <?php while(have_posts()): the_post(); ?>
                         <article class="article_card">
                             <a href="<?php the_permalink(); ?>" class="card">
+                                <!-- リンクカードのサムネイル画像 -->
                                 <div class="card_pic">
                                     <?php if(has_post_thumbnail()): ?>
                                         <?php the_post_thumbnail('thumbnail'); ?>
@@ -20,9 +21,10 @@
                                       <img src="<?php echo get_template_directory_uri(); ?>/img/noimage.jpg" alt="">
                                     <?php endif; ?>
                                 </div>
+                                <!-- リンクカードのテキストグループ -->
                                 <div class="card_body">
-                                    <time datetime="<?php the_time('Y-m-d'); ?> class="txt-10""><?php the_time('Y年m月d日') ?></time>
-                                    <h2 class="card_title txt-14"><?php the_title(); ?></h2>
+                                    <time datetime="<?php the_time('Y-m-d'); ?>" class="txt-14"><?php the_time('Y年m月d日') ?></time>
+                                    <h2 class="card_title txt-16"><?php the_title(); ?></h2>
                                 </div>
                             </a>
                         </article>

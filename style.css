@@ -7,7 +7,7 @@ Author: カイロプラクティックどんぐり情報システム部
 
 /*　メモ
 PCファーストで記述。reset.css(リセットCSS)、common.css(flexの設定など便利なCSS)、setting.css(色指定など)あり
-ブレイクポイント: 767px,1024px
+ブレイクポイント: 1200px,1024px,767px
 */
 
 @charset "UTF-8";
