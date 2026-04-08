@@ -3,11 +3,16 @@
     <main class="blog_page pb-10">
         <div class="blog_content_wrapper inner flex">
             <div class="blog_wrapper">
-                <div class="archive_title">
-                  <p class="txt-14">blog</p>
-                  <h1 class="txt-24">ブログ</h1>
-                </div>
-                <div class="archive_desc txt-16">駆け出しの猟師としても活動する「カイロプラクティックどんぐり」管理人のブログです。主に猟師の活動、伊賀市などについて発信していきます。</div>
+                <?php if(is_date()): ?>
+                    <div class="archive_title">
+                        <h1 class="txt-24"><?php echo get_query_var('year'); ?>年</h1>
+                    </div>
+                <?php elseif(is_category()): ?>
+                    <div class="archive_title">
+                        <h1 class="txt-24">カテゴリ: <?php echo get_queried_object()->name ?></h1>
+                    </div>
+                    <div class="archive_desc txt-16">「<?php echo get_queried_object()->name ?>」に関する記事の一覧です。</div>
+                <?php endif; ?>
                 <?php if(have_posts()): ?>
                     <section class="article_lists">
                     <?php while(have_posts()): the_post(); ?>
