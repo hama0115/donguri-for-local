@@ -985,6 +985,30 @@ margin: auto; */
   margin: 0 !important;
 }
 
+/*--- パンくずリスト(「Breadcrumb navXT」) ---*/
+
+/* すでに使われている.postのCSSを無効化 */
+.breadcrumb_inner .post {
+  padding: 0;
+}
+
+.breadcrumb_inner {
+  font-size: 1.4rem;
+}
+.breadcrumb_inner .fas,
+.breadcrumb_inner .fa-solid {
+  margin: 0 0.5em;
+  color: var(--main-color);
+}
+
+.breadcrumb_inner a {
+  color: inherit;
+  text-decoration: none;
+}
+.breadcrumb_inner a:hover {
+  color: var(--accent-brown);
+}
+
 /* ++++++++++++++++++++++++++++++++++++++++++++++ */
 /* 装飾パーツ　※この位置にあるべきなのかよくわからない */
 /* ++++++++++++++++++++++++++++++++++++++++++++++ */
