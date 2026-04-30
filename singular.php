@@ -5,7 +5,8 @@
             <div class="blog_wrapper">
                 <?php if(have_posts()): ?>
                     <article>
-                    <?php while(have_posts()): the_post(); ?>                      
+                    <?php while(have_posts()): the_post(); ?>
+                        <?php get_template_part('template-parts/breadcrumb'); ?>                   
                         <h1 class="post_title txt-24"><?php the_title(); ?></h1>
                         <div class="post-info">
                             <!-- 投稿日時の表示 -->
