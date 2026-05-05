@@ -106,7 +106,7 @@
                     <h3 class="txt-26">出張料金</h3>
                     <div class="txt">
                         <p class="txt-16">お客様のご自宅などへの出張施術を希望される場合</p>
-                        <p class="txt-48"><span class="txt-24">基本料金 + </span><span class="en-a"> 500</span><span class="txt-20">円</span></p>
+                        <p class="txt-48"><span class="txt-24">基本料金 + </span><span class="en-a"> 2000</span><span class="txt-20">円</span></p>
                     </div>
                     <p class="fukidashi txt-16" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                         <span>伊勢市、その周辺への出張が可能です!!<br>ご自宅で施術を受けることができます。<br>ご予約の際、出張を希望する旨をお申し付けください。</span>
